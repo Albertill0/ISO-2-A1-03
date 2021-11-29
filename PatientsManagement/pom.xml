@@ -7,6 +7,7 @@
   <groupId>A03</groupId>
   <artifactId>PatientsManagement</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>PatientsManagement</name>
   <!-- FIXME change it to the project's website -->
