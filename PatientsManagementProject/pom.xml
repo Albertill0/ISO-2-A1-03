@@ -78,4 +78,8 @@
       </plugins>
     </pluginManagement>
   </build>
+    <modules>
+    <module>It2-UseCase 2
+     </module>
+  </modules>
 </project>
