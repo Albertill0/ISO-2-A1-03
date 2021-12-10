@@ -1,28 +1,27 @@
-package es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration4.Persistence;
+package es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration4.Domain;
 
 import java.util.Vector;
-import es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration4.Domain.Patient;
 
 public class PatientDAO {
 	public Vector<Patient> _unnamed_Patient_ = new Vector<Patient>();
 
-	public Patient Read(Patient aPatient) {
+	public Patient read(Object aPatient_patient) {
 		throw new UnsupportedOperationException();
 	}
 
-	public Vector<Patient> ReadAll() {
+	public Vector<Patient> readAll() {
 		throw new UnsupportedOperationException();
 	}
 
-	public int Insert(Patient aPatient) {
+	public int insert(Patient aPatient) {
 		throw new UnsupportedOperationException();
 	}
 
-	public int Update(Patient aPatient) {
+	public int update(Patient aPatient) {
 		throw new UnsupportedOperationException();
 	}
 
-	public int Delete(Patient aPatient) {
+	public int delete(Patient aPatient) {
 		throw new UnsupportedOperationException();
 	}
 

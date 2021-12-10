@@ -1,9 +1,9 @@
 package es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration4.Domain;
 
-import es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration4.Persistence.PatientDAO;
-
 public class Patient extends Person {
 	private String _state;
+	private boolean _confinement;
+	private String _hospitalCare;
 	public PatientDAO _unnamed_PatientDAO_;
 
 	public Patient(String aDNI) {
@@ -21,5 +21,21 @@ public class Patient extends Person {
 
 	public String getState() {
 		return this._state;
+	}
+
+	public void setConfinement(boolean aConfinement) {
+		this._confinement = aConfinement;
+	}
+
+	public boolean isConfinement() {
+		return this._confinement;
+	}
+
+	public void setHospitalCare(String aHospitalCare) {
+		this._hospitalCare = aHospitalCare;
+	}
+
+	public String getHospitalCare() {
+		return this._hospitalCare;
 	}
 }
