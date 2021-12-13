@@ -15,7 +15,7 @@ public class Agent {
 		throw new UnsupportedOperationException();
 	}
 
-	public void conect() {
+	public void connect() {
 		throw new UnsupportedOperationException();
 	}
 
