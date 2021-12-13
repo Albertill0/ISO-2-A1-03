@@ -6,7 +6,11 @@ public class Person {
 	private String _surname;
 	private int _telephone;
 
-	public Person(String aDNI) {
+	public Person() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Person(String aDNI, String aName, String aSurname, int aTelephone) {
 		throw new UnsupportedOperationException();
 	}
 

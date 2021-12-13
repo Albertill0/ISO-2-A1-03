@@ -5,7 +5,7 @@ import java.util.Vector;
 public class PatientDAO {
 	public Vector<Patient> _unnamed_Patient_ = new Vector<Patient>();
 
-	public Patient read(Object aPatient_patient) {
+	public Patient read(Patient aPatient) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -22,10 +22,6 @@ public class PatientDAO {
 	}
 
 	public int delete(Patient aPatient) {
-		throw new UnsupportedOperationException();
-	}
-
-	public int modifyState(Patient aPatient) {
 		throw new UnsupportedOperationException();
 	}
 }
