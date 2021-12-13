@@ -2,15 +2,19 @@ package es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration7.Domain;
 
 public class Disease {
 	private int _id;
+	private String _name;
 	private String _symptoms;
 	private String _seasonality;
 	private String _medicines;
 	private float _possibilityOfConfinement;
-	private String _vaccinations;
 	private String _vaccinationCampaigns;
 	public DiseaseDAO _unnamed_DiseaseDAO_;
 
-	public Disease(int aId) {
+	public Disease() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Disease(int aId, String aSymptoms, String aSeasonality, String aMedicines, float aPossibityOfConfinement, String aVaccinationCampaigns) {
 		throw new UnsupportedOperationException();
 	}
 
@@ -24,6 +28,14 @@ public class Disease {
 
 	public int getId() {
 		return this._id;
+	}
+
+	public void setName(String aName) {
+		this._name = aName;
+	}
+
+	public String getName() {
+		return this._name;
 	}
 
 	public void setSymptoms(String aSymptoms) {
@@ -56,14 +68,6 @@ public class Disease {
 
 	public float getPossibilityOfConfinement() {
 		return this._possibilityOfConfinement;
-	}
-
-	public void setVaccinations(String aVaccinations) {
-		this._vaccinations = aVaccinations;
-	}
-
-	public String getVaccinations() {
-		return this._vaccinations;
 	}
 
 	public void setVaccinationCampaigns(String aVaccinationCampaigns) {

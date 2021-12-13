@@ -24,8 +24,4 @@ public class DiseaseDAO {
 	public int delete(Disease aDisease) {
 		throw new UnsupportedOperationException();
 	}
-
-	public int modifyDisease(Disease aDisease) {
-		throw new UnsupportedOperationException();
-	}
 }
