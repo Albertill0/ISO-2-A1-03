@@ -1,22 +1,17 @@
 package es.uclm.esi.isoft2.a03.PatientsManagementProject.Iteration8.Persistence;
 
+import java.sql.Connection;
 import java.util.Vector;
 
 public class Agent {
+	private Agent _mInstance;
+	private Connection _mBD;
 
-	public int insert(String aSQL) {
+	private Agent() {
 		throw new UnsupportedOperationException();
 	}
 
-	public int delete(String aSQL) {
-		throw new UnsupportedOperationException();
-	}
-
-	public int update(String aSQL) {
-		throw new UnsupportedOperationException();
-	}
-
-	public Vector<Object> select() {
+	public Agent getAgent() {
 		throw new UnsupportedOperationException();
 	}
 
@@ -25,6 +20,22 @@ public class Agent {
 	}
 
 	public void disconnect() {
+		throw new UnsupportedOperationException();
+	}
+
+	public Vector<Object> read(String aSql) {
+		throw new UnsupportedOperationException();
+	}
+
+	public int insert(String aSql) {
+		throw new UnsupportedOperationException();
+	}
+
+	public int update(String aSql) {
+		throw new UnsupportedOperationException();
+	}
+
+	public int delete(String aSql) {
 		throw new UnsupportedOperationException();
 	}
 }

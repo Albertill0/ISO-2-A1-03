@@ -8,15 +8,15 @@ public class JFrameCampaignSupervisor {
 		throw new UnsupportedOperationException();
 	}
 
-	public boolean askConfirmation(String aData) {
+	public boolean askConfirmation() {
 		throw new UnsupportedOperationException();
 	}
-
+	
 	public Campaign showCampaign() {
 		throw new UnsupportedOperationException();
 	}
-
-	public boolean deleteCampaign(Campaign aC) {
+	
+	public Campaign deleteCampaign(Campaign aC) {
 		throw new UnsupportedOperationException();
 	}
 }
