@@ -77,10 +77,7 @@
     </pluginManagement>
   </build>
   <modules>
-<<<<<<< HEAD
     <module>Iteration3</module>
-=======
     <module>Iteration4</module>
->>>>>>> Iteration4
   </modules>
 </project>
