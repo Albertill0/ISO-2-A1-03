@@ -78,4 +78,7 @@
       </plugins>
     </pluginManagement>
   </build>
+  <modules>
+  	<module>Iteration5</module>
+  </modules>
 </project>
