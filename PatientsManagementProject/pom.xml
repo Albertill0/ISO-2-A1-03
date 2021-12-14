@@ -78,5 +78,8 @@
   </build>
   <modules>
     <module>Iteration7</module>
+    <module>Iteration8</module>
+    <module>Iteration3</module>
+    <module>Iteration4</module>
   </modules>
 </project>
