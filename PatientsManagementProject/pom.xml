@@ -76,10 +76,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <modules>
-    <module>Iteration8</module>
-    <module>Iteration3</module>
-    <module>Iteration4</module>
-    <module>Iteration7</module>
-  </modules>
 </project>
