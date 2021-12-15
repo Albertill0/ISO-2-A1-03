@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>PatientsManagementProject</artifactId>
+    <groupId>A03</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
 
   <groupId>A03</groupId>
-  <artifactId>PatientsManagementProject</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <artifactId>Iteration4</artifactId>
+  <version>4.0.4-SNAPSHOT</version>
 
-  <name>PatientsManagementProject</name>
+  <name>Iteration4</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -23,11 +27,6 @@
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>mysql</groupId>
-      <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.21</version>
     </dependency>
   </dependencies>
 
@@ -76,17 +75,4 @@
       </plugins>
     </pluginManagement>
   </build>
-  <modules>
-    <module>Iteration11</module>
-    <module>Iteration7</module>
-    <module>Iteration9</module>
-    <module>Iteration8</module>
-    <module>Iteration6</module>
-  	<module>Iteration2</module>
-  	<module>Iteration1</module>
-  	<module>Iteration5</module>
-    <module>Iteration3</module>
-    <module>Iteration4</module>
-  </modules>
 </project>
-
